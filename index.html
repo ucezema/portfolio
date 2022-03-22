@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="disp.css" rel="stylesheet" type="text/css">
+    <title>Uche Ezema</title>
+</head>
+<body>
+    <div class="header">
+        <div class="head1">
+            <div class="logo"><img src="passport.jpeg" alt="Profile photo" class="logo"></div>
+            <h1 class="uc">Uche Ezema</h1>
+        </div>    
+        <nav>
+            <ul class="nav-links">
+                <li><a href="">Profile</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Experience</a></li>
+                <li><a href="">Education</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Affiliations</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="left-sidebar"></div>
+    
+    <div class="box-container">
+        <div class="box">  
+            <div class="box-image">
+                <img class="pic" src="esurvey.jpg" alt="e-Survey">
+            </div>
+            <p class="desc">e-Survey Tools</p>
+        </div>
+           
+        <div class="box">  
+            <div class="box-image">
+                <img class="pic" src="DQI.jpeg" alt="Data Quality Improvement">
+            </div>
+            <p class="desc">Data Quality Improvement</p>
+        </div>
+
+        <div class="box">  
+            <div class="box-image">
+                <img class="pic" src="DHI.jpeg" alt="Digital Health">
+            </div>
+            <p class="desc">Digital Health</p>
+        </div>
+    </div>
+    
+    <aside>
+        <div class="bmi-box">
+            <a href="">Check your BMI</a>
+            <div class= "bmi-form">
+                <form class="bmi-form2" action="">
+                    <input class="bmi-input" type="number" name="Weight" id="weight" placeholder="Weight (Kg)">
+                    <input class="bmi-input" type="number" name="Height" id="height" placeholder="Height (Cm)">
+                    <button type="button" onclick="displayResult()" class="bmi-input" id="btn1">Calculate BMI</button>
+                </form>
+            </div>
+        <p id="bmi">BMI</p>
+        <p id="dem">Dem</p>
+        </div>
+        <div class="calc">
+            <a id="calc-h1" href="">Calculate your order</a>
+        </div>
+    </aside>
+
+    
+
+
+<script src="app.js"></script>    
+</body>
+</html>

@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppings", sans-serif;
+    box-sizing: border-box;
+}
+.header {
+    height: 10vh;
+    width: 100%;
+    padding: 0 1.5%;
+    background: #080008;
+    position: relative;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30rem;
+    align-content: flex-start;
+    padding-top: 2px;
+    padding-left: 2%;
+    margin-left: 15px;
+}
+.head1 .logo {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.uc {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(250, 244, 244);
+    font-size: 40px;
+    margin-left: 25px;
+    flex-grow: 4;
+    width:8rem;
+    text-shadow: 2px 4px 8px rgb(94, 23, 23);
+    background-color: #ff1616;
+    padding: 12px;
+    border-radius: 5px;
+}
+nav {
+    align-content: flex-end;
+}
+.nav-links {
+    padding: 28px 0;
+}
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li:hover {
+    background-color: #ff1616;
+    padding: 4px 2px 4px 2px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+.left-sidebar {
+    position: relative;
+    width: 13%;
+    height: 100%;
+    margin-top: 4.9%;
+    position:absolute;
+    left: 0;
+    top: 0;
+    background: #ff1616;
+    z-index: -1;
+}
+.box-container {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 25%;
+    /* border: 0.05px solid red;
+    border-radius: 5px; */
+    width: 50%;
+    flex-wrap: wrap;
+}
+.box-container .box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 20px;
+    width: 150px;
+    flex-wrap: wrap;
+    /* padding: 5px 10px 5px 10px; */
+}
+.box-container .box .box-image {
+    border: 5px solid rgb(40, 102, 153);
+    border-radius: 5px;
+}
+.desc {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.pic {
+    width: 150px;
+    height: 150px;
+}
+aside {
+    margin-top: -95%;
+    margin-left: 70%;
+    margin-right: 2%;
+    width: 25%;
+}
+.bmi-box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(40, 102, 153);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.bmi-form {
+    display: block;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.bmi-form .bmi-form2 {
+    padding-top: 15px;
+}
+.bmi-input {
+    margin-top: 10px;
+    width: 10em;
+}
+#calc-h1 {
+    margin-top: 30px;
+}
+#btn1 {
+    display: block;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(8, 114, 114);
+    color: hsl(0, 0%, 96%);
+    font-size: 12px;
+    width: 40%;
+}
+#btn1:hover {
+    background-color: rgb(55, 153, 153);
+}
