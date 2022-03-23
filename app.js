@@ -1,6 +1,10 @@
 
-var weight = document.getElementById("weight").value;
-var height = document.getElementById("height").value;
+var weight1 = document.getElementById("weight").value;
+var height1 = document.getElementById("height").value;
+
+// var weight = parseInt(weight1);
+// var height = parseInt(height1);
+
 var heightSquare = Math.pow(height,2);
 var hSquare = Math.round(heightSquare);
 var myBMI = document.querySelector("#bmi");
