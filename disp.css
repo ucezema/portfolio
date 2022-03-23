@@ -112,10 +112,10 @@ nav {
     height: 150px;
 }
 aside {
-    margin-top: -95%;
-    margin-left: 70%;
+    margin-top: 1%;
+    margin-left: 80%;
     margin-right: 2%;
-    width: 25%;
+    width: 15%;
 }
 .bmi-box {
     display: flex;
