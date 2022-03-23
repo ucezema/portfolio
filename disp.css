@@ -7,9 +7,10 @@
 .header {
     height: 10vh;
     width: 100%;
-    padding: 0 1.5%;
+    padding: 0;
     background: #080008;
     position: relative;
+    z-index: 0;
 }
 div {
     display: flex;
@@ -20,16 +21,17 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 30rem;
+    width: 40rem;
     align-content: flex-start;
     padding-top: 2px;
-    padding-left: 2%;
-    margin-left: 15px;
+    padding-left: 0;
+    margin-left: 0;
 }
 .head1 .logo {
+    position: fixed;
     width: 10rem;
     height: 10rem;
-    margin-left: 5px;
+    margin-left: 50px;
     margin-top: 50px;
     border-radius: 50px;
 }
@@ -37,13 +39,14 @@ div {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 40px;
-    margin-left: 25px;
-    flex-grow: 4;
-    width:8rem;
+    margin-left: 0;
+    width:40rem;
     text-shadow: 2px 4px 8px rgb(59, 2, 2);
     background-color: #ff1616;
-    padding: 12px;
-    border-radius: 5px;
+    padding-left: 320px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 2px 2px 50px;
 }
 nav {
     align-content: flex-end;
@@ -66,14 +69,14 @@ nav {
 }
 .left-sidebar {
     position: relative;
-    width: 13%;
+    width: 15%;
     height: 100%;
-    margin-top: 4.9%;
+    /* margin-top: 4.9%; */
     position:absolute;
     left: 0;
     top: 0;
     background: #ff1616;
-    z-index: -1;
+    z-index: -2;
 }
 .box-container {
     display: flex;
