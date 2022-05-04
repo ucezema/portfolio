@@ -4,73 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="disp.css" rel="stylesheet" type="text/css">
-    <title>Uche Ezema</title>
+    <title>Uche Ezema</title> 
 </head>
 <body>
-    <div class="header">
-        <div class="head1">
-            <div class="logo"><img src="passport.jpeg" alt="Profile photo" class="logo"></div>
-            <h1 class="uc">Uche Ezema</h1>
-        </div>    
+    <header class="header">
+        <h1 class="uc">Uche Ezema</h1>   
+        <img class="logo" src="passport.jpeg" alt="Profile photo">
         <nav>
             <ul class="nav-links">
-                <li><a href="">Profile</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">Education</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Affiliations</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
             </ul>
         </nav>
-    </div>
-    <div class="left-sidebar"></div>
-    
-    <div class="box-container">
-        <div class="box">  
-            <div class="box-image">
+    </header>
+     <main>   
+         <section class="container" id="container1">
+             <h3 id="about">About Me</h3>
+             <p id="about-note">Don't go an be looking for trouble because trouble is not good 
+                 and if the beat you, you will cry. Also remeber to buy puf puf 
+                 while coming back. Thank you.</p>
+         </section>
+        <section class="container" id="container2">
+                <section class="container-item">
                 <img class="pic" src="esurvey.jpg" alt="e-Survey">
-            </div>
-            <p class="desc">e-Survey Tools</p>
-        </div>
-           
-        <div class="box">  
-            <div class="box-image">
+                <h3>e-Survey Tools</h3>
+                <p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random 
+                    text. It has roots in a piece of classical Latin literature from 45 BC, 
+                    making it over 2000 years old.</p>
+            </section>
+            <section class="container-item">
                 <img class="pic" src="DQI.jpeg" alt="Data Quality Improvement">
-            </div>
-            <p class="desc">Data Quality Improvement</p>
-        </div>
-
-        <div class="box">  
-            <div class="box-image">
+                <h3>Data Quality Improvement</h3>
+                <p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random 
+                    text. It has roots in a piece of classical Latin literature from 45 BC, 
+                    making it over 2000 years old.</p>
+            </section>
+            <section class="container-item">
                 <img class="pic" src="DHI.jpeg" alt="Digital Health">
-            </div>
-            <p class="desc">Digital Health</p>
-        </div>
-    </div>
-    
+                <h3>Digital Health</h3>
+                <p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random 
+                    text. It has roots in a piece of classical Latin literature from 45 BC, 
+                    making it over 2000 years old.</p>
+            </section>
+        </section>
+        <section class="container" id="container3">
+            <h3 class="pro-sec" id="pro">Projects</h3>
+            <section class="pro-sec" id="pro-detail">
+                <section class="container-item">
+                    <a href="BMI.html">BMI Calculator</a>
+                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </section> 
+                <section class="container-item">
+                     <a href="increment/increment.html">Increment</a>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </section> 
+                <section class="container-item">
+                    <a href="bgChanger/bgChanger.html">Bg Color Changer</a>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </section> 
+                <section class="container-item">
+                    <a href="#">New</a>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </section> 
+                <section class="container-item">
+                    <a href="#">New</a>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </section> 
+                <section class="container-item">
+                    <a href="#">New</a>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </section> 
+            </section>
+        </section>
+    </main>
+    <article>
+
+    </article>
+
     <aside>
-        <div class="bmi-box">
-            <a href="">Check your BMI</a>
-            <div class= "bmi-form">
-                <form class="bmi-form2" action="">
-                    <input class="bmi-input" type="number" name="Weight" id="weight" placeholder="Weight (Kg)">
-                    <input class="bmi-input" type="number" name="Height" id="height" placeholder="Height (Cm)">
-                    <button type="button" onclick="displayResult()" class="bmi-input" id="btn1">Calculate BMI</button>
-                </form>
-            </div>
-        <p id="bmi">BMI</p>
-        <p id="dem">Dem</p>
-        </div>
-        <div class="calc">
-            <a id="calc-h1" href="">Calculate your order</a>
-        </div>
+               
     </aside>
 
-    
+    <footer>
 
-
-<script src="app.js"></script>    
+    </footer>
+   
 </body>
 </html>

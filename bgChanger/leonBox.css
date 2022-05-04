@@ -1,0 +1,24 @@
+h1 {
+    padding: 5px 10px 5px;
+    margin-left: 10px;
+    background-color: rgb(193, 108, 193);
+    color: rgb(75, 75, 178);
+}
+
+h2 {
+    padding: 10px 0;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    background-color: orange;
+}
+
+section {
+    border: 6px solid blue;
+    height: 300px;
+    margin-top: 400px;
+}
+span {
+    border: 1.5px solid yellow;
+    padding: 10px;
+    margin: 10px;
+}

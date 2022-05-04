@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+#bdy {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.incrementBox {
+    border: 2px solid rgb(16, 16, 112);
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+}
+#plus {
+    color: green;
+}
+#minus {
+    color: red;
+}
+#reset {
+    color: blue;
+}
+#num {
+    justify-content: center;
+    justify-items: center;
+}

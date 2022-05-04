@@ -1,0 +1,49 @@
+* {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.bmi-box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(40, 102, 153);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.bmi-form {
+    display: block;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.bmi-form .bmi-form2 {
+    padding-top: 15px;
+}
+.bmi-input {
+    margin-top: 10px;
+    width: 10em;
+}
+#calc-h1 {
+    margin-top: 30px;
+}
+#btn1 {
+    display: block;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(8, 114, 114);
+    color: hsl(0, 0%, 96%);
+    font-size: 12px;
+    width: 40%;
+}
+#btn1:hover {
+    background-color: rgb(55, 153, 153);
+}
