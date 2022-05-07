@@ -32,7 +32,7 @@ header, .logo, .uc, nav {
     color: white;
     font-size: 40px;
     margin: 1% auto;
-    text-shadow: 1.5px 3px 6px #0a2342;
+    text-shadow: 1.5px 3px 6px #0f4c96;
 }
 nav {
     margin: auto;
@@ -77,7 +77,7 @@ nav {
     margin: 50px auto;
     background-color: #c5c3c3;
     border-radius: 8px;
-    box-shadow: 1.5px 1.5px 2px black;
+    box-shadow: 1.5px 2px 4px black;
 }
 #about-note {
     margin-top: 20px;
@@ -104,6 +104,7 @@ nav {
     width: 30%;
     height: 40px;
     border-radius: 5px;
+    box-shadow: 1.5px 2px 4px black;
 }
 .pro-sec {
     width: auto;
@@ -117,17 +118,17 @@ nav {
     background-color: #a7cec6;
     border-radius: 7px;
     padding: 20px;
-    box-shadow: 1.5px 1.5px 2px black;
+    box-shadow: 1.5px 2px 4px black;
 }
 .container3-item {
-    width: 15%;
+    width: 20%;
     height: 80%;
     margin: auto 1%;
     border: 1px solid #0a2342;;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     background-color: #cccaca;
-    box-shadow: 1.5px 1.5px 2px black;
+    box-shadow: 1.5px 2px 4px black;
 }
 .container3-item a {
     text-decoration: none;
@@ -136,6 +137,7 @@ nav {
     padding: 3px 10px;
     margin-bottom: 20px;
     border-radius: 5px; 
+    font-size: 14px;
 }
 .serv-head {
     margin: 20px;
@@ -161,7 +163,7 @@ aside, article, footer {
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #090d37;
@@ -171,15 +173,15 @@ footer {
 }
 #fp {
     color: aliceblue;
-    margin-left: 15%;
+    margin: auto;
     text-align: center;
-    width: 60%;
+    width: auto;
 }
 #f-nav {
     display: inline;
     text-align: center;
-    margin-right: 5%;
-    width: 20%;
+    margin-right: auto;
+    width: auto;
 }
 #f-nav a {
     margin: 10px;
@@ -189,6 +191,15 @@ footer {
 
 i {
     color: aliceblue;
+}
+.active {
+    color: green;
+}
+.inactive {
+    color: rgb(182, 58, 58);
+}
+.status {
+    margin: 20px;
 }
 
 @media only screen and (max-width:415px) {
