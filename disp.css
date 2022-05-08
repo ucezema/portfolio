@@ -4,13 +4,14 @@
     height: auto;
     font-family: "poppings", sans-serif;
     box-sizing: border-box;
+    font-family: monospace;
+    font-size: 20px;
 }
 header {
     height: 20%;
     width: 100%;
     padding: 0;
     background: #0a2342;
-    box-shadow: 1.5px 2px 2px #080808;
 }
 header, .logo, .uc, nav {
     display: flex;
@@ -30,12 +31,13 @@ header, .logo, .uc, nav {
 .uc {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 2rem;
     margin: 1% auto;
     text-shadow: 1.5px 3px 6px #0f4c96;
 }
 nav {
     margin: auto;
+    width: 80%;
 }
 .nav-links {
     padding: 18px 100px;
@@ -53,49 +55,64 @@ nav {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 0.9rem;
 }
-#container1, .container-item, .container3-item {
+#container1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-items: center;
     text-align: center;
-} 
-#container2, .pro-sec {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-}
-#container1 {
     height: 200px;
     padding: 50px;
     width: 90%;
     margin: 50px auto;
     background-color: #c5c3c3;
     border-radius: 8px;
-    box-shadow: 1.5px 2px 4px black;
-}
-#about-note {
-    margin-top: 20px;
 }
 #container2 {
-    margin: 100px auto;
-    background-color: #76a59b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 80%;
+    margin: auto;
+}
+.serv-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto 2%;
+    background-color: #76a59b;
+    width: 100%;
     border-radius: 5px;
     height: auto;
 }
-#container3 {
-    background-color: #b1b0b0;
-    margin: 20px auto 30px auto;
-    width: 90%;
-    height: 300px;
-    border-radius: 5px;
+.container-item {
+    width: 26.6%;
+    margin: 3% 2%;
+    height: auto;
+    background-color: #a7cec6;
+    border-radius: 7px;
+    padding: 20px;
 }
+
+#about-note {
+    margin-top: 20px;
+}
+
+#container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3% auto;
+    width: 90%;
+    }
 #pro {
     margin: 20px auto 10px auto;
     padding: 20px;
@@ -107,44 +124,43 @@ nav {
     box-shadow: 1.5px 2px 4px black;
 }
 .pro-sec {
-    width: auto;
-    height: 75%;
-    margin: auto 2%;
-}
-.container-item {
-    width: auto;
-    margin: 3% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
     height: auto;
-    background-color: #a7cec6;
-    border-radius: 7px;
-    padding: 20px;
-    box-shadow: 1.5px 2px 4px black;
+    margin: 1% 2%;
+    background-color: #b1b0b0;
 }
+
 .container3-item {
-    width: 20%;
-    height: 80%;
-    margin: auto 1%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 2% 1%;
     border: 1px solid #0a2342;;
     padding: 10px;
     border-radius: 8px;
     background-color: #cccaca;
-    box-shadow: 1.5px 2px 4px black;
 }
 .container3-item a {
     text-decoration: none;
-    background-color: #0a2342;
-    color: aliceblue;
+    font-weight: bolder;
+    color: #0a2342;
     padding: 3px 10px;
     margin-bottom: 20px;
     border-radius: 5px; 
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 .serv-head {
     margin: 20px;
     color: #022f67;
 }
 .desc {
-    font-size: 14px;
+    font-size: 0.8rem;
     padding: auto;
     margin-top: 20px;
     align-content: center;
@@ -168,7 +184,7 @@ footer {
     align-items: center;
     background-color: #090d37;
     height: 10vh;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: monospace;
 }
 #fp {
@@ -176,30 +192,36 @@ footer {
     margin: auto;
     text-align: center;
     width: auto;
+    font-size: 0.8rem;
 }
 #f-nav {
     display: inline;
     text-align: center;
-    margin-right: auto;
+    margin: auto;
     width: auto;
 }
 #f-nav a {
     margin: 10px;
     padding: 10px;
     color: aliceblue;
+    font-size: 0.8rem;
 }
-
 i {
+    clear: both;
     color: aliceblue;
+    font-size: 0.8rem;
 }
 .active {
     color: green;
+    font-size: 0.9rem;
 }
 .inactive {
     color: rgb(182, 58, 58);
+    font-size: 0.9rem;
 }
 .status {
     margin: 20px;
+    font-size: 0.9rem;
 }
 
 @media only screen and (max-width:415px) {
