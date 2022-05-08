@@ -78,6 +78,7 @@ nav {
     text-align: center;
     width: 80%;
     margin: auto;
+    height: fit-content;
 }
 .serv-sec{
     display: flex;
@@ -89,7 +90,7 @@ nav {
     background-color: #cbe2dd;
     width: 100%;
     border-radius: 5px;
-    height: auto;
+    height: fit-content;
 }
 .container-item {
     width: 26.6%;
@@ -140,7 +141,6 @@ nav {
     width: auto;
     height: auto;
     margin: 2% 1%;
-    border: 1px solid #0a2342;;
     padding: 10px;
     border-radius: 8px;
     background-color: #cccaca;
@@ -182,7 +182,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #090d37;
-    height: 10vh;
+    height: 20vh;
     margin-top: 10px;
     font-family: monospace;
 }
