@@ -255,13 +255,16 @@ i {
         padding: auto;
         justify-content: center;
     }    
-    .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
+    nav ul {
+        display: inline-block;
+        width: auto;
+        text-align: center;
     }
-    .nav-links li {
-        font-size: 14px;
+    .nav-links li a {
+        font-size: 0.5rem;
+        width: auto;
+        padding: 0;
+        margin: 0;
     }
     footer {
         height: auto;
